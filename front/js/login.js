@@ -23,5 +23,4 @@ function login_submit() {
             alert('Failure');
         }
     });
-
 }
