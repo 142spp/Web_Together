@@ -13,5 +13,5 @@ app.get('/', (request, response) => {
 });
 
 app.listen(portNumber, () => {
-    console.log(`Web_Together opened in ${portNumber}`);
+    console.log(`Web_Together opened in http://localhost:${portNumber}`);
 });
