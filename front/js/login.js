@@ -5,6 +5,7 @@ function login_submit() {
     if (id == "" || password == "") {
         message = "입력하지 않은 부분이 있습니다."
         alert(message);
+        return;
     }
     fetch('http://', {
         method: 'POST',
