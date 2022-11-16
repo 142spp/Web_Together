@@ -7,7 +7,7 @@ function login_submit() {
         alert(message);
         return;
     }
-    fetch('http://localhost:8000', {
+    fetch('http://localhost:8000/backend/login', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
